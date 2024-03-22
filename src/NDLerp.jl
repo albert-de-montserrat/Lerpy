@@ -1,6 +1,6 @@
 module NDLerp
 
-include("ndlerp.jl")
+include("lerp.jl")
 export lerp, ndlerp
 
 end # module NDLerp
