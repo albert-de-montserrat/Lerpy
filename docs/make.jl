@@ -1,6 +1,6 @@
 push!(LOAD_PATH,"../src/")
 
-using Documenter, Lerpy
+using Documenter, NDLerp
 makedocs(
     sitename="NDLerp.jl",
     pages=[
