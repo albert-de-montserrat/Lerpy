@@ -1,5 +1,6 @@
-module Lerpy
+module NDLerp
 
-greet() = print("Hello World!")
+include("ndlerp.jl")
+export lerp, ndlerp
 
-end # module Lerpy
+end # module NDLerp
