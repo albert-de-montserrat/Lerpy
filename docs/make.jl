@@ -1,14 +1,14 @@
 push!(LOAD_PATH,"../src/")
 
-using Documenter, Lerpy
+using Documenter, NDLerp
 makedocs(
-    sitename="Lerpy.jl",
+    sitename="NDLerp.jl",
     pages=[
         "Home" => "index.md",
     ]
 )
 
 deploydocs(
-    repo = "github.com/albert-de-montserrat/Lerpy.jl",
+    repo = "github.com/albert-de-montserrat/NDLerp.jl",
     branch = "gh-pages",
 )
