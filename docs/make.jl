@@ -9,5 +9,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "https://github.com/albert-de-montserrat/Lerpy.jl",
+    repo = "github.com/albert-de-montserrat/Lerpy.jl",
 )
